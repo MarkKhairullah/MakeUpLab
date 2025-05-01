@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +33,60 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.App {
+  min-height: 100vh;
+  background-image: url('https://images.unsplash.com/photo-1557683316-973673baf926?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+h1 {
+  font-weight: bold;
+  margin-top: 20px;
+  text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.5);
+}
+
+h2 {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+p {
+  color: #444;
+  margin-bottom: 5px;
+  font-size: 1.1rem;
+}
+
+.bg-opacity-75 {
+  background-color: rgba(255, 255, 255, 0.85) !important;
+}
+
+.container.mt-5 {
+  z-index: 10;
+  position: relative;
 }
